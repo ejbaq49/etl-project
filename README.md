@@ -21,4 +21,4 @@ The google API transformation was more complex. We called the find place API to 
 
 ## Load
 
-![alt text]()
+![alt text](https://github.com/ejbaq49/etl-project/blob/master/parks-ratings-model.png?raw=true)
