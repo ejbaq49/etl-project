@@ -27,3 +27,14 @@ The data was loaded into a postgres relational database
 ONce we had two clean dataframes, they were loaded into pgAdmin with the table names parks and ratings. 
 
 The file https://github.com/ejbaq49/etl-project/blob/master/schema.sql shows the schema.sql used to create the tables
+
+## Steps to reproduce project
+Step | Description
+----------|----------
+1| Create a Python file for your credentials called "keys.py"
+2| gKey="YourAPIKeyHere"
+3| connection_string="user:password"
+4| Create a new PostgreSQL database in PGAdmin called "national_parks"
+5| Create tables in the database using the file called "schema.sql"
+6| Open and run Jupyter notebook "extract-xform-load.ipynb"
+7| Open another query in PGAdmin and run the file "review_parks.sql" to see results
