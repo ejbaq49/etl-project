@@ -20,6 +20,7 @@ National park JSON was farily clean and only minor data cleanup was needed. 6 co
 The google API transformation was more complex. We called the find place API to get a place ID. Then, we used the place ID to call the place details API to get ratings for each national park. We tested the return to get the ratings and found the returns to be inconsisitent. 
 
 ## Load
+The data was loaded into a relational database
 
 ![alt text](https://github.com/ejbaq49/etl-project/blob/master/parks-ratings-model.png?raw=true)
 
