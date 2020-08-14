@@ -17,7 +17,7 @@ CREATE TABLE ratings (
   total_ratings INT
 );
 
---ALTER TABLE "ratings" ADD CONSTRAINT "fk_ratings_parks_title" FOREIGN KEY("title") 
---REFERENCES "parks" ("title");
+ALTER TABLE "ratings" ADD CONSTRAINT "fk_ratings_parks_title" FOREIGN KEY("title") 
+REFERENCES "parks" ("title");
 
 
