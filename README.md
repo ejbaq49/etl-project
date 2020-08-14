@@ -33,9 +33,9 @@ The file https://github.com/ejbaq49/etl-project/blob/master/schema.sql shows the
 Step | Description
 ----------|----------
 1| Create a Python file for your credentials called "keys.py"
-2| gKey="YourAPIKeyHere"
-3| connection_string="user:password"
-4| Create a new PostgreSQL database in PGAdmin called "national_parks"
-5| Create tables in the database using the file called "schema.sql"
-6| Open and run Jupyter notebook "extract-xform-load.ipynb"
-7| Open another query in PGAdmin and run the file "review_parks.sql" to see results
+  1a| gKey="YourAPIKeyHere"
+  1b| connection_string="user:password"
+2| Create a new PostgreSQL database in PGAdmin called "national_parks"
+3| Create tables in the database using the file called "schema.sql"
+4| Open and run Jupyter notebook "extract-xform-load.ipynb"
+5| Open another query in PGAdmin and run the file "review_parks.sql" to see results
