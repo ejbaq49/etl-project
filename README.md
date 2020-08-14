@@ -22,3 +22,5 @@ The google API transformation was more complex. We called the find place API to 
 ## Load
 
 ![alt text](https://github.com/ejbaq49/etl-project/blob/master/parks-ratings-model.png?raw=true)
+
+ONce we had two clean dataframes, they were loaded into pgAdmin with the table names parks and ratings. 
