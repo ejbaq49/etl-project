@@ -15,7 +15,7 @@ https://developers.google.com/places/supported_types#table1
 Some of the challenges with the google places APi included getting inconsistent results when calling the place details API. This is an API issue not a code issue. 
 
 ## Transform
-National park JSON was farily clean and only minor data cleanup was needed. 6 columns were removed, 'date_established_unix','image', 'nps_link','states','area','coordinates'
+National park JSON was farily clean and only minor data cleanup was needed. 6 columns were removed, 'date_established_unix','image', 'nps_link','states','area','coordinates'. The index was also reset.
 
 The google API transformation was more complex. We called the find place API to get a place ID. Then, we used the place ID to call the place details API to get ratings for each national park. We tested the return to get the ratings and found the returns to be inconsisitent. 
 
