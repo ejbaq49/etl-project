@@ -1,4 +1,5 @@
 # National Parks & Google Reviews
+![alt_text](https://github.com/ejbaq49/etl-project/blob/master/resources/Yosemite-iStock.jpg?raw=true)
 ## ETL Project
 ### Boot Camp Module 13
 
